@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&display=swap');
+
+.nav-link {
+    text-transform: lowercase;
+    letter-spacing: 1.2px;
+    padding: 1em;
+    font-weight: 600;
+}
+
+body {
+    font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+main,
+header,
+section,
+footer {
+    padding: 3em 2em;
+}
+
+
+.hero-text {
+    font-size: 28px;
+    padding-left: 2em;
+    letter-spacing: 1px;
+    text-align: justify;
+}
+
+.divider{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-family: "Instrument Serif", serif;
+    text-transform: uppercase;
+    font-size: 3em;
+    width: 100%;
+}
+
+.divider::before{
+    content: '';
+    height: 3px;
+    background: black;
+    flex: 1;
+    margin: 0 .25em 0 0;
+}
+
+.divider::after{
+    content: '';
+    height: 3px;
+    background: black;
+    flex: 1;
+    margin: 0 0 0 .25em;
+}
+
+h1 {
+    font-family: "Instrument Serif", serif;
+    font-size: 70px;
+    text-align: center;
+}
+
+.featured-clips {
+    margin-top: 30px;
+    font-weight: bold;
+}
