@@ -20,7 +20,7 @@ main, header, section, footer {
 }
 
 .nav-link:hover {
-    color: rgb(223, 148, 35);
+    color: #df9423;
 }
 
 
@@ -149,3 +149,23 @@ main.border {
 article {
     padding: 10px 0 5px 10px;
 }
+
+.socials {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.socials a {
+    display: inline-block;
+    padding: 5px 20px 10px;
+    font-size: 24px;
+    color: #4f5f07;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.socials a:hover {
+    color: #90a339;
+}
+
