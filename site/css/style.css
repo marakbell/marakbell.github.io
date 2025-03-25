@@ -169,3 +169,17 @@ article {
     color: #90a339;
 }
 
+@media (max-width: 767px) {
+    .experience .img-contain {
+        padding-bottom: 20px;
+    }
+
+    .hero-section .col-md-4 {
+        padding-bottom: 20px;
+    }
+
+    .hero-section .col-md-6 {
+        padding-bottom: 20px;
+    }
+}
+
