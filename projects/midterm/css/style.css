@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Italiana&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+h1 {
+    font-family: "Italiana", sans-serif;
+    font-size: 6em;
+}
+
+h2, h3 {
+    font-family: "Abel", sans-serif;
+    text-align: center;
+}
+
+.section-graphics h3 {
+    width: 100%;
+}
+
+h2 {
+    font-size: 1em; 
+}
+
+body {
+    font-family: "Rubik", sans-serif;
+    color: #FAFCEF;
+    background-color: #0C0E0C;
+}
+
+a {
+    color: #E18D58;
+}
+
+footer {
+    background-color: #F9F1E5;
+}
+.div-container {
+    padding: 7em 0;
+    color: #0C0E0C;
+    width: 55%;
+    margin: 0 auto;
+}
+
+.centered-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.section-container {
+    width: 55%;
+    text-align: justify;
+    padding: 7em 0;
+}
+
+.section-graphics {
+    font-size: .9em;
+    background-color: #F9F1E5;
+    color: #0C0E0C;
+    align-items: center;
+    padding: 4em 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 3em;
+    }
+    
+    .section-container {
+        background-color: #0C0E0C;
+        width: 100%;
+        padding: 10% 5%;
+    }
+
+    body {
+        background-color: #F9F1E5;
+    }
+    .section-graphics, .div-container {
+        width: 95%;
+    }
+
+    .section-graphics {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .section-graphics div {
+        width: 95%;
+    }
+
+    .centered-text {
+        top: 30%;
+    }
+}
