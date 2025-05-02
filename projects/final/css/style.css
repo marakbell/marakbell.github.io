@@ -1,11 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+
 
 h1 {
-    font-family: "Jost", sans-serif;
+    font-family: "Lora", serif;
     font-size: 4em;
-    font-weight: 500;
-    text-transform: uppercase;
+    font-weight: bold;
 }
 
 h2 {
@@ -17,6 +18,8 @@ body {
     color: white;
     font-family: "Jost", sans-serif;
     background-color: #7E8E21;
+    font-size: 1.2em;
+
 }
 
 .full-img {
@@ -35,6 +38,12 @@ body {
     width: 70%
 }
 
+.centers-img {
+    display: block; 
+    margin: 0 auto;
+    text-align: center;
+    padding: 1em 0;
+}
 
 .section-olive {
     width: 65%;
@@ -42,17 +51,17 @@ body {
     padding: 7em 0;
 }
 
-.section-method {
+.section-charts {
     background-color: #F4F0D7;
     color: #876029;
     padding: 10% 17.5%;
-}
-
-.section-charts {
     align-items: center;
     padding: 4em 0;
-    display: flex;
-    flex-wrap: wrap;
+}
+
+.chart-intro {
+    padding: 5% 17.5%;
+    text-align: justify;
 }
 
 footer {
