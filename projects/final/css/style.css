@@ -33,6 +33,17 @@ a {
     object-position: center;
 }
 
+.collage {
+    text-align: center;
+    background-color: #F4F0D7;
+    padding: 0 17.5% 10%;
+}
+
+.collage-img {
+    width: 95%;
+    border-radius: 7px;
+}
+
 .centers-text {
     position: absolute;
     top: 45%;
@@ -78,4 +89,24 @@ footer {
     background-color: #435A12;
     color: #f3ebad;
     padding: 10% 17.5%;
+}
+
+@media (max-width: 767px) {
+    h1 {
+        font-size: 1.75em;
+    }
+
+    h2 {
+        font-size: 1em;
+    }
+
+    .centers-text {
+        top: 15%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .collage-img {
+        padding-bottom: 20px;
+    }
 }
